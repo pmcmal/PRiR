@@ -1,0 +1,8 @@
+mpicxx mpi.cpp -o mpi
+mpirun -np 4 ./mpi
+
+echo " " > resultmpi.txt
+mpirun -np 2 "./mpi"|grep "Czas wykonania: " >> resultmpi.txt
+
+chmod +x build_and_run
+

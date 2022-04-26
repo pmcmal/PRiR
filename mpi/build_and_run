@@ -1,0 +1,2 @@
+mpicxx mpi.cpp -o mpi
+mpirun -np 2 ./mpi

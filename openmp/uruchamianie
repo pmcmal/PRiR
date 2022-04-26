@@ -1,0 +1,2 @@
+g++ -o openmp -fopenmp openmp.cpp
+"./openmp"|grep "Czas wykonania: " >> resultopenmp.txt

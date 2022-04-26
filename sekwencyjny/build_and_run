@@ -1,0 +1,2 @@
+g++ -o sekw sekw.cpp
+"./sekw"|grep "Czas wykonania: " >> resultsekw.txt
